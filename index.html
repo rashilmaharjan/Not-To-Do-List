@@ -79,7 +79,7 @@
                 <!-- entry list table -->
                 <table class="table table-striped table-hover border">
                 <tbody id="entryList">
-                    <tr>
+                    <!-- <tr> -->
                         <!-- <td>1</td>
                         <td>sleeping</td>
                         <td>40</td>
@@ -99,8 +99,8 @@
                 <table class="table table-striped table-hover border">
                 
             
-                <tbody>
-                    <tr>
+                <tbody id = "badList">
+                    <!-- <tr>
                     <td>1</td>
                     <td>sleeping</td>
                     <td>40hr</td>
@@ -108,16 +108,17 @@
                         <button class="btn btn-warning"><i class="fa-solid fa-arrow-left"></i></button>
                         <button class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></i></button>
                     </td>
-                    </tr>
+                    </tr> -->
                 
                 </tbody>
                 </table>
-                <div class="alert alert-success ">You could have saved = 50hr </div>
+                <div class="alert alert-success ">You could have saved = <span id = "savedHrsElm"></span>hr </div>
             </div>
             
         </div>
 
-        <div class="alert alert-success">The total hours allocated = 4hr </div>
+        <div class="alert alert-success">The total hours allocated = <span id="ttlHrs">0</span> hrs 
+        </div>
         
        
        
